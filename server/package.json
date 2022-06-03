@@ -1,0 +1,40 @@
+{
+  "name": "aiti-crm-server",
+  "version": "1.0.0",
+  "description": "IT project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COMP30022-2021-SM1/AITI-CRM.git"
+  },
+  "author": "AITI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COMP30022-2021-SM1/AITI-CRM/issues"
+  },
+  "homepage": "https://github.com/COMP30022-2021-SM1/AITI-CRM#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash-plus": "^0.2.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}
