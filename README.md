@@ -1,5 +1,5 @@
-# The University of Melbourne
-# COMP30022 IT Project - AITI-CRM
+# The University of Melbourne - COMP30022 IT Project
+# AITI-CRM
 
 ## Table of Contents
   * [Project Overview](#project-overview)
